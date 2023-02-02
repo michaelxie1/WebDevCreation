@@ -1,5 +1,20 @@
 01/26/2023
 
+feature branch workflow- all feature developments should happen in a seperate branch
+(same workflow as main branch) - once feature is developed- merge with main
+main branch never has broken code
+Encapsulating feature request - allows for pull requests and allows people to help you
+Project has a bug- you can use a feature branch that fixes the issue (create an issue)
+- Naming feature branches should relate to purpose (git doesn't make a technical distinction- be careful)
+Main branch => finalized product
+anything feature branch => tests and fixes problems that come up (distinction comes from developers)
 
+Anytime a change is made on feature branch - immediately push so no overlap between the branches
+(try to minimize merge conflicts)
+-Create a separate branch feature/issue that is being worked on
 
+git checkout- b new-feature
 
+after creating feature branch locally, make sure you specify the upstream
+git push -u origin branch-name 
+merge pull request when finished- normally keep it open (its fine to keep it ope when ur ready to merge tho)
